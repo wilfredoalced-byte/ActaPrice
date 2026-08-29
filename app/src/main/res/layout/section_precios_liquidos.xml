@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        style="@style/TituloSeccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="III. PRECIOS - COMBUSTIBLES LÍQUIDOS" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView style="@style/EncabezadoColumna" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.6" android:text="Producto" />
+        <TextView style="@style/EncabezadoColumna" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="PRICE" />
+        <TextView style="@style/EncabezadoColumna" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Publicado" />
+        <TextView style="@style/EncabezadoColumna" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Surtidor" />
+        <TextView style="@style/EncabezadoColumna" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Descuento" />
+    </LinearLayout>
+
+    <!-- Diésel B5 / B5-S50 -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <TextView style="@style/EtiquetaProducto" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.6" android:text="Diésel B5 / B5-S50" />
+        <EditText android:id="@+id/et_diesel_price" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+        <EditText android:id="@+id/et_diesel_publicado" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+        <EditText android:id="@+id/et_diesel_surtidor" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+        <EditText android:id="@+id/et_diesel_descuento" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+    </LinearLayout>
+
+    <!-- G-84 / Gasohol 84 Plus -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <TextView style="@style/EtiquetaProducto" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.6" android:text="G-84 / Gasohol 84 Plus" />
+        <EditText android:id="@+id/et_g84_price" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+        <EditText android:id="@+id/et_g84_publicado" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+        <EditText android:id="@+id/et_g84_surtidor" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+        <EditText android:id="@+id/et_g84_descuento" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+    </LinearLayout>
+
+    <!-- Gasolina/Gasohol Regular -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <TextView style="@style/EtiquetaProducto" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.6" android:text="Gasolina/Gasohol Regular" />
+        <EditText android:id="@+id/et_regular_price" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+        <EditText android:id="@+id/et_regular_publicado" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+        <EditText android:id="@+id/et_regular_surtidor" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+        <EditText android:id="@+id/et_regular_descuento" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+    </LinearLayout>
+
+    <!-- Gasolina/Gasohol Premium -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <TextView style="@style/EtiquetaProducto" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.6" android:text="Gasolina/Gasohol Premium" />
+        <EditText android:id="@+id/et_premium_price" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+        <EditText android:id="@+id/et_premium_publicado" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+        <EditText android:id="@+id/et_premium_surtidor" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+        <EditText android:id="@+id/et_premium_descuento" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+    </LinearLayout>
+
+</merge>

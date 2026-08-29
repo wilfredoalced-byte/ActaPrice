@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        style="@style/TituloSeccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IX. DATOS DE QUIEN RECIBE LA DILIGENCIA" />
+
+    <TextView style="@style/EtiquetaCampo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DNI" />
+    <EditText android:id="@+id/et_receptor_dni" style="@style/CampoTexto" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number" />
+
+    <TextView style="@style/EtiquetaCampo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Apellidos y nombres" />
+    <EditText android:id="@+id/et_receptor_nombres" style="@style/CampoTexto" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPersonName" />
+
+    <TextView style="@style/EtiquetaCampo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Relación con el agente fiscalizado" />
+    <EditText android:id="@+id/et_receptor_relacion" style="@style/CampoTexto" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="text" />
+
+</merge>

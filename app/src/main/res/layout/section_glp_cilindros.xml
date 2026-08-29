@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        style="@style/TituloSeccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="V. PRECIO - GLP ENVASADO (CILINDROS)" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView style="@style/EncabezadoColumna" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Capacidad" />
+        <TextView style="@style/EncabezadoColumna" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Precio S/" />
+        <TextView style="@style/EncabezadoColumna" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Capacidad" />
+        <TextView style="@style/EncabezadoColumna" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Precio S/" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <TextView style="@style/EtiquetaProducto" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="3 kg" />
+        <EditText android:id="@+id/et_glp_3kg" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+        <TextView style="@style/EtiquetaProducto" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="15 kg" />
+        <EditText android:id="@+id/et_glp_15kg" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <TextView style="@style/EtiquetaProducto" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="5 kg" />
+        <EditText android:id="@+id/et_glp_5kg" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+        <TextView style="@style/EtiquetaProducto" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="45 kg" />
+        <EditText android:id="@+id/et_glp_45kg" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <TextView style="@style/EtiquetaProducto" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="10 kg" />
+        <EditText android:id="@+id/et_glp_10kg" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+        <TextView style="@style/EtiquetaProducto" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Otros" />
+        <EditText android:id="@+id/et_glp_otros" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView style="@style/EtiquetaCampo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Marca del producto GLP" />
+    <EditText
+        android:id="@+id/et_glp_marca"
+        style="@style/CampoTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+</merge>

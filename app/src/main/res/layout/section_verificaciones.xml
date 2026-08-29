@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        style="@style/TituloSeccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VI. VERIFICACIONES REALIZADAS" />
+
+    <TextView style="@style/EtiquetaCampo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1. ¿Teléfono publicado en el establecimiento?" />
+    <RadioGroup
+        android:id="@+id/rg_telefono_publicado"
+        style="@style/RadioGroupStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton style="@style/RadioButtonStyle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SÍ" />
+        <RadioButton style="@style/RadioButtonStyle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NO" />
+        <RadioButton style="@style/RadioButtonStyle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="N/A" />
+    </RadioGroup>
+
+    <TextView style="@style/EtiquetaCampo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2. ¿Teléfono registrado y actualizado en el PRICE?" />
+    <RadioGroup
+        android:id="@+id/rg_telefono_actualizado"
+        style="@style/RadioGroupStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton style="@style/RadioButtonStyle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SÍ" />
+        <RadioButton style="@style/RadioButtonStyle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NO" />
+        <RadioButton style="@style/RadioButtonStyle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="N/A" />
+    </RadioGroup>
+
+    <TextView style="@style/EtiquetaCampo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3. ¿Horario de atención publicado?" />
+    <RadioGroup
+        android:id="@+id/rg_horario_publicado"
+        style="@style/RadioGroupStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton style="@style/RadioButtonStyle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SÍ" />
+        <RadioButton style="@style/RadioButtonStyle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NO" />
+        <RadioButton style="@style/RadioButtonStyle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="N/A" />
+    </RadioGroup>
+
+</merge>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        style="@style/TituloSeccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IV. PRECIO - GLP AUTOMOTOR" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView style="@style/EncabezadoColumna" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.6" android:text="Producto" />
+        <TextView style="@style/EncabezadoColumna" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="PRICE" />
+        <TextView style="@style/EncabezadoColumna" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Publicado" />
+        <TextView style="@style/EncabezadoColumna" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Surtidor" />
+        <TextView style="@style/EncabezadoColumna" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Descuento" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <TextView style="@style/EtiquetaProducto" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.6" android:text="GLP Automotor" />
+        <EditText android:id="@+id/et_glp_auto_price" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+        <EditText android:id="@+id/et_glp_auto_publicado" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+        <EditText android:id="@+id/et_glp_auto_surtidor" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+        <EditText android:id="@+id/et_glp_auto_descuento" style="@style/CampoTablaPrecio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+    </LinearLayout>
+
+</merge>

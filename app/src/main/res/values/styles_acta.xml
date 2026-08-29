@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TituloSeccion">
+        <item name="android:background">@color/primary_dark</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="EtiquetaCampo">
+        <item name="android:textColor">#37474F</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CampoTexto">
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#263238</item>
+    </style>
+
+    <style name="EncabezadoColumna">
+        <item name="android:background">#E0E0E0</item>
+        <item name="android:textColor">#455A64</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <style name="EtiquetaProducto">
+        <item name="android:textColor">#37474F</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="CampoTablaPrecio">
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:layout_margin">1dp</item>
+    </style>
+
+    <style name="RadioGroupStyle">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">4dp</item>
+    </style>
+
+    <style name="RadioButtonStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+    </style>
+</resources>

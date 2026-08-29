@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        style="@style/TituloSeccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VII. HECHOS VERIFICADOS" />
+
+    <EditText android:id="@+id/et_hecho1" style="@style/CampoTexto" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Hecho 1" />
+    <EditText android:id="@+id/et_hecho2" style="@style/CampoTexto" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Hecho 2" />
+    <EditText android:id="@+id/et_hecho3" style="@style/CampoTexto" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Hecho 3" />
+    <EditText android:id="@+id/et_hecho4" style="@style/CampoTexto" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Hecho 4" />
+    <EditText android:id="@+id/et_hecho5" style="@style/CampoTexto" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Hecho 5" />
+    <EditText android:id="@+id/et_hecho6" style="@style/CampoTexto" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Hecho 6" />
+
+</merge>
